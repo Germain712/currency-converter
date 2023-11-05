@@ -1,0 +1,54 @@
+/* Apply a light green background color */
+body {
+  background-color: #c3e6a3;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Create a container with margin and padding for content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style a header with a background color and centered text */
+.header {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Style main content with padding and a border */
+.main-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style a responsive navigation menu */
+.navbar {
+  background-color: #4caf50;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Add responsiveness to the navigation menu */
+@media screen and (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
